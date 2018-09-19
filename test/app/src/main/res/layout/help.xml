@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="masran.myapplication.MainActivity"
+    android:background="@drawable/photo"  >
+
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:gravity="right"
+        android:background="#FFFFFF"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:text="โรงพยาบาลสิริโรจน์"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/iconcall"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="11dp"
+            android:onClick="BtnOnClick"
+            app:srcCompat="@drawable/callicon" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:gravity="right"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:text="โรงพยาบาลกรุงเทพภูเก็ต"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iconcall"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="11dp"
+            android:onClick="Btn1OnClick"
+            app:srcCompat="@drawable/callicon" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:gravity="right"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:text="โรงพยาบาลวชิระภูเก็ต"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iconcall"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="11dp"
+            android:onClick="Btn2OnClick"
+            app:srcCompat="@drawable/callicon" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:gravity="right"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="โรงพยาบาล อบจ ภูเก็ต"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iconcall"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="11dp"
+            android:onClick="Btn3OnClick"
+            app:srcCompat="@drawable/callicon" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:gravity="right"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="โรงพยาบาลดีบุก"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iconcall"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="11dp"
+            android:onClick="Btn4OnClick"
+            app:srcCompat="@drawable/callicon" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:gravity="right"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="โรงพยาบาลป่าตอง"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iconcall"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="11dp"
+            android:onClick="Btn5OnClick"
+            app:srcCompat="@drawable/callicon" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
